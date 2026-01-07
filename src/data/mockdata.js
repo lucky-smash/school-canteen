@@ -12,6 +12,8 @@ export const snacks = [
 export const students = [
   {
     id: 1,
+    age: 20,
+    class: "12A",
     name: "Rahul",
     referralCode: "ABC123",
     totalSpent: 0,
@@ -19,6 +21,8 @@ export const students = [
   },
   {
     id: 2,
+    age: 21,
+    class: "12B",
     name: "Ananya",
     referralCode: "XYZ789",
     totalSpent: 0,
@@ -26,6 +30,8 @@ export const students = [
   },
   {
     id: 3,
+    age: 22,
+    class: "12C",
     name: "Aman",
     referralCode: "LMN456",
     totalSpent: 0,
@@ -33,7 +39,36 @@ export const students = [
   },
   {
     id: 4,
+    age: 23,
+    class: "12D",
     name: "Sneha",
+    referralCode: "PQR321",
+    totalSpent: 0,
+    orders: [],
+  },
+  {
+    id: 5,
+    age: 24,
+    class: "12E",
+    name: "Lakshit",
+    referralCode: "PQR321",
+    totalSpent: 0,
+    orders: [],
+  },
+  {
+    id: 6,
+    age: 22,
+    class: "12E",
+    name: "harsh",
+    referralCode: "PQR321",
+    totalSpent: 0,
+    orders: [],
+  },
+  {
+    id: 7,
+    age: 21,
+    class: "12E",
+    name: "piyush",
     referralCode: "PQR321",
     totalSpent: 0,
     orders: [],
