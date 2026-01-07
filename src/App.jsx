@@ -1,7 +1,7 @@
 
-// Mock order handler (can be extended to more complex logic)
+// Mock order handler (can be extended tmore)
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route ,Navigate } from "react-router-dom";
 import { useState } from "react";
 
 import Navbar from "./components/Navbar.jsx";
@@ -25,6 +25,7 @@ function App() {
 
       <div className="p-6">
         <Routes>
+          <Route path="/" element={<Navigate to="/snacks" />} />
           <Route path="/snacks" element={<SnackGrid snacks={snacks} onOrder={orderSnack} />} />
           <Route path="/students" element={<Students students={students} />} />
         </Routes>
