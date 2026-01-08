@@ -1,7 +1,6 @@
 import { useParams , Link } from "react-router-dom";
-import { students } from "../data/mockdata.js";
 
-function StudentDetail() {
+function StudentDetail({students}) {
   const { id } = useParams();
   const student = students.find((s) => s.id === Number(id));
 
