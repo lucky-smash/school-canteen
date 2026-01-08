@@ -17,7 +17,10 @@ export const students = [
     name: "Rahul",
     referralCode: "ABC123",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Samosa", quantity: 2, amount: 20 },
+      { snack: "Burger", quantity: 2, amount: 100 },
+    ],
   },
   {
     id: 2,
@@ -26,7 +29,10 @@ export const students = [
     name: "Ananya",
     referralCode: "XYZ789",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Sandwich", quantity: 1, amount: 30 },
+      { snack: "Veg Puff", quantity: 1, amount: 20 },
+    ],
   },
   {
     id: 3,
@@ -35,7 +41,10 @@ export const students = [
     name: "Aman",
     referralCode: "LMN456",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Noodles", quantity: 1, amount: 45 },
+      { snack: "Cold Drink", quantity: 1, amount: 25 },
+    ],
   },
   {
     id: 4,
@@ -44,7 +53,10 @@ export const students = [
     name: "Sneha",
     referralCode: "PQR321",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Veg Puff", quantity: 1, amount: 20 },
+      { snack: "Burger", quantity: 1, amount: 50 },
+    ],
   },
   {
     id: 5,
@@ -53,7 +65,10 @@ export const students = [
     name: "Lakshit",
     referralCode: "PQR321",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Samosa", quantity: 2, amount: 20 },
+      { snack: "Burger", quantity: 2, amount: 100 },
+    ],
   },
   {
     id: 6,
@@ -62,7 +77,10 @@ export const students = [
     name: "harsh",
     referralCode: "PQR321",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Samosa", quantity: 2, amount: 20 },
+      { snack: "Burger", quantity: 2, amount: 100 },
+    ],
   },
   {
     id: 7,
@@ -71,6 +89,9 @@ export const students = [
     name: "piyush",
     referralCode: "PQR321",
     totalSpent: 0,
-    orders: [],
+    orders: [
+      { snack: "Samosa", quantity: 2, amount: 20 },
+      { snack: "Burger", quantity: 2, amount: 100 },
+    ],
   },
 ];
