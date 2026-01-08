@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import SnackGrid from "./pages/SnackGrid";
 import Students from "./pages/Students";
-import StudentDetail from "./pages/StudentDetail";
+import StudentDetail from "./pages/studentDetail";
 
 import { snacks as mockSnacks, students as mockStudents } from "./data/mockdata";
 
